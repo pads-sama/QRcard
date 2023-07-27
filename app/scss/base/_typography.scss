@@ -1,0 +1,47 @@
+// typography resets
+
+// set the headings to bold
+// 
+h1,
+h2,
+h3 {
+  font-weight: 700;
+  line-height: calc(1em + 0.5rem);
+}
+
+
+// reset the link or anchor tag to remove its default style
+a,
+a:visited,
+a:active {
+  text-decoration: none;
+}
+
+
+// overflow-wrap with the value of break-word to automatically line-wrap
+// if there is no enough space for the character
+// margin top set to 0 to remove the default margin top of the heading and paragraph element
+
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  overflow-wrap: break-word;
+  hyphens: auto;
+  margin-top: 0;
+}
+
+
+//set the line-height of the paragraph to 1.5
+p{
+  line-height: 1.5;
+}
+
+// set the input, button, textarea, select to match the font style set in the parent element
+
+input, button, textarea, select {
+  font: inherit;
+}
