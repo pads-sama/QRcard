@@ -1,0 +1,35 @@
+@use '../abstracts' as a;
+
+.container{
+    padding: 25px;
+
+    &__card{
+        background-color: a.$card-background;
+        width: 100%;
+        padding: 15px 25px 25px 25px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        border-radius: 20px;
+        box-shadow:0 3px 15px rgb(0 0 0 / 0.2);
+    }
+    
+    &__image{
+        width: 300px;
+        border-radius: 10px;
+        margin-bottom: 25px;
+    }
+
+    &__caption{
+        text-align: center;
+        color: a.$text-color;
+        padding: 5px 0 2px;
+        font-size: 1.4rem;
+    }
+
+    &__description{
+        color: a.$par-color;
+        text-align: center;
+    }
+}
